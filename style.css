@@ -1,0 +1,47 @@
+html,body{
+    margin: 15px 0px 15px 0px;
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(166,9,123,1) 0%, rgba(0,212,255,1) 88%);
+    color: azure;
+    font-family: 'Shippori Mincho B1', serif;
+}
+li{
+    list-style-type: none;
+}
+h4{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.footer-links,
+.main{
+    margin: 0 auto;
+    width: 80vw;
+}
+.content-item{
+    display: flex;
+    flex-direction: column;
+    padding-top: 10px;
+}
+.avatar{
+    max-width: 200px;
+    max-height: 200px;
+}
+.content-item-avatar{
+    float: right;
+}
+.content-item p{
+    margin: 0px;
+    font-style: italic;
+}
+.footer-links{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+.rsschool-logo{
+    width: auto;
+    height: 40px;
+}
+.git-logo{
+    width: auto;
+    height: 50px;
+}
